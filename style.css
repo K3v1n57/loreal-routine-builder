@@ -125,6 +125,27 @@ body {
   margin-bottom: 8px;
 }
 
+/* Details button inside product cards: styled as an underlined text-button */
+.desc-btn {
+  background: none;
+  border: none;
+  color: #000; /* black text per request */
+  text-decoration: underline;
+  padding: 0;
+  margin: 6px 0 0;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+}
+.desc-btn:hover {
+  color: #111;
+}
+.desc-btn:focus-visible {
+  outline: 3px solid #222; /* neutral dark outline for accessibility */
+  outline-offset: 3px;
+}
+
 #sendBtn {
   width: 56px;
   height: 40px;
